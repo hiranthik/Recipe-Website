@@ -1,0 +1,34 @@
+body{
+    max-width:700px;
+    margin: 2rem auto;  /*auto only works when a max-width is set, auto centers*/
+    padding:0 1rem;
+    
+}
+
+img{
+    max-width: 100%;
+    border-radius:8px;
+    margin-bottom: 2rem;
+}
+
+h1,h2{
+    
+}
+
+ul,ol{
+    padding-left:1.5rem;
+    
+}
+
+
+a.back-link{
+    display:inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+
+}
+
+a.back-link:hover{
+    text-decoration:underline;
+}
+
