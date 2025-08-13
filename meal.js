@@ -13,7 +13,7 @@ async function fetchMealDetails() {
 
    try{
     
-    const res=await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`);
+    const res=await fetch(`http://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`);
     const data = await res.json();
 
     if(!data.meals){
