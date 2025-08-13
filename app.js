@@ -69,6 +69,9 @@ resultsDiv.appendChild(mealCard);
 });
 
 
+if (document.getElementById('meal-details')) {
+    fetchMealDetails();
+}
 
 
 
